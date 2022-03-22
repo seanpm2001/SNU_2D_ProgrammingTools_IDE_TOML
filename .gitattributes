@@ -1,0 +1,93 @@
+# Start of script
+# .gitattributes
+# This file defines what languages can show up in the GitHub linguist menu (the menu that tells you what percentage each language is using up on this project.
+# Some non-programming languages must be included manually with this file. Want to create your own? Do something similar to what is done here, and name the file
+# .gitattributes
+# and nothing else, no characters before, no characters after
+# Start of linguist script
+# TOML
+*.toml linguist-detectable=true
+*.toml linguist-documentation=false
+# YAML
+*.yml linguist-detectable=false
+*.yml linguist-documentation=false
+*.yaml linguist-detectable=false
+*.yaml linguist-documentation=false
+# ReStructuredText
+*.rst linguist-detectable=false
+*.rst linguist-documentation=false
+# Plain Text
+*.txt linguist-detectable=false
+*.txt linguist-documentation=false
+# Comma Separated Values (CSV)
+*.csv linguist-detectable=false
+*.csv linguist-documentation=false
+# TeX (LaTeX)
+*.tex linguist-detectable=false
+*.tex linguist-documentation=false
+# BibTeX (LaTeX)
+*.bib linguist-detectable=false
+*.bib linguist-documentation=false
+# INI
+*.ini linguist-detectable=false
+*.ini linguist-documentation=false
+# Desktop
+*.desktop linguist-detectable=false
+*.desktop linguist-documentation=false
+# JSON
+*.json inguist-detectable=false
+*.json linguist-documentation=false
+# WebVTT
+*.vtt linguist-detectable=false
+*.vtt linguist-documentation=false
+# WikiText (MediaWiki)
+# Turned back off, I now remember why I originally had it disabled. - August 18th 2021
+*.wiki linguist-detectable=false
+*.wiki linguist-documentation=false
+# CSV (Comma Separated Values)
+*.csv linguist-detectable=true
+*.csv linguist-documentation=false
+# Python (duplicate, as it is already detected by GitHub Linguist by default)
+*.py linguist-detectable=false
+*.py linguist-documentation=false
+# HTML
+*.htm linguist-detectable=false
+*.htm linguist-documentation=false
+*.html linguist-detectable=false
+*.html linguist-documentation=false
+*.mhtm linguist-detectable=false
+*.mhtm linguist-documentation=false
+*.mhtml linguist-detectable=false
+*.mhtml linguist-documentation=false
+*.xhtm linguist-detectable=false
+*.xhtm linguist-documentation=false
+*.xhtml linguist-detectable=false
+*.xhtml linguist-documentation=false
+# Shell
+*.sh linguist-detectable=false
+*.sh linguist-documentation=false
+# Makefile
+*.mk linguist-detectable=false
+*.mk linguist-documentation=false
+*.mak linguist-detectable=false
+*.mak linguist-documentation=false
+*.make linguist-detectable=false
+*.make linguist-documentation=false
+*.makefile linguist-detectable=false
+*.makefile linguist-documentation=false
+# Markdown
+# Do not include, as it would become the 100% dominant language and would hide all the other languages as "other"
+*.md linguist-detectable=false
+*.md linguist-documentation=false
+*.mkd linguist-detectable=false
+*.mkd linguist-documentation=false
+*.mdown linguist-detectable=false
+*.mdown linguist-documentation=false
+*.markdown linguist-detectable=false
+*.markdown linguist-documentation=false
+# End of linguist script
+# File info
+# File type: gitattributes file (.gitattributes)
+# File version: 1 (2022, Monday, March 21st at 8:41 pm)
+# Line count (including blank lines and compiler line): 94
+# End of script
